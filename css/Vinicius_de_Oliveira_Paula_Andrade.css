@@ -1,0 +1,144 @@
+/* COLORS */
+
+:root {
+    --primary-a: #006BFF;
+    --primary-b: #08C2FF;
+    --primary-c: #BCF2F6;
+    --secundary: #FFF100;
+    --tertiary-a: #000;
+    --tertiary-b: #fff;
+}
+
+.gradient{
+    background: rgb(0,107,255);
+    background: linear-gradient(90deg, rgba(0,107,255,1) 0%, rgba(8,194,255,1) 100%);
+} 
+
+.gradient_2 {
+    background: rgb(0,107,255);
+    background: linear-gradient(90deg, rgba(0,107,255,1) 0%, rgba(8,194,255,1) 50%, rgba(188,242,246,1) 100%);
+}
+
+/* NAVBAR */
+
+.logo{
+    width: 60px;
+    border-radius: 50%;
+}
+
+.nav-link {
+    color: var(--tertiary-b);
+}
+
+.nav-link:hover,.nav-link:focus{
+    color: var(--secundary) !important;
+    transition: 0.5s;
+}
+
+
+nav div{
+    font-family: sans-serif;
+    color:  var(--tertiary-b);
+    font-size: 20px;
+    text-align: center;
+}
+
+div li{
+    padding-right: 20px;
+}
+
+.navbar-toggler:focus {
+    background-color: transparent;
+    border: none;
+    box-shadow:none
+  }
+
+.navbar-toggler{
+    border: none;
+}
+
+.bi-list::before{
+    font-size: 40px;
+}
+
+/* HEADER */
+
+header{
+    height: 40vh;
+    background-image: url('../img/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header h1{
+    text-align: center;
+    color: var(--secundary);
+    text-shadow: var(--tertiary-a) 2px 2px 2px;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+header h2{
+    text-align: center;
+    color: var(--tertiary-b);
+    text-shadow: #000 1px 1px 1px;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+/* MAIN */
+
+.card_img {
+    border-radius: 50%;
+    border: solid 2px var(--primary-b);
+}
+
+.main_img{
+    border: solid 4px var(--primary-b);
+}
+
+.carousel_img{
+    border: solid 4px var(--primary-b);
+    width: 90%;
+    height: 90%;
+}
+
+.main_img_2{
+    border: solid 4px var(--primary-a);
+}
+
+.color_btn{
+    background-color: var(--secundary);
+    padding: 10px 20px;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+    color: var(--tertiary-a);
+    font-size: 20px;
+}
+
+
+
+/* FOOTER */
+
+footer div{
+    list-style: none;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+footer img{
+    width: 30px;
+    border-radius: 50%;
+}
+
